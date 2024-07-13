@@ -1,3 +1,30 @@
 *{
+    margin: 0;
+    padding: 0;
 
 }
+body{
+    background-image: url(./images.jpg);/*faz com que a imagem seja o fundo*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;/*não permite a imagem se repetir*/
+}
+
+/*-------------------------------------------*/
+/*essa parte me ajudou a criar a caixa onde vou fazer as infos de login*/
+/**/
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.boxlog{
+    background: #CED2D6;
+    width: 300px;
+    height: 400px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+/*-------------------------------------------*/
