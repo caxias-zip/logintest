@@ -14,20 +14,24 @@
                     <h2>Login</h2>
                 </header>
             </div>
-            <form class="login">
-                <label for="username">Usuário</label>
-                <br/>
-                <input type="text" id="username" name="username">
-                <br/>
-                <!-------------------------------------------------------->
-                <label for="password">Senha</label>
-                <br/>
-                <input type="password" id="password" name="password">
-                <br/>
-                <!-------------------------------------------------------->
+            <div class="login">
+                <form>
+                    <label for="username">Usuário</label>
+                    <br/>
+                    <input type="text" id="username" name="username" required>
+                    <br/>
+                    <!-------------------------------------------------------->
+                    <label for="password">Senha</label>
+                    <br/>
+                    <input type="password" id="password" name="password" required>
+                    <br/>
+                    <!-------------------------------------------------------->
+                    <!-------------------------------------------------------->
+                </form>
+            </div>
+            <div class="botao">
                 <button type="submit">Entrar</button>
-                <!-------------------------------------------------------->
-            </form>
+            </div>
             <div class="cadastro">
                 <footer>
                     <h3>não tem conta?<a href="./cadastro.html">cadastre-se</a></h3>
