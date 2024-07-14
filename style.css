@@ -28,3 +28,28 @@ height: 100vh;
     border-radius: 10px;
 }
 /*-------------------------------------------*/
+/*aqui controlo o header*/
+.top{
+    font-size: 24px;
+    display: flex;
+    height: 50px;
+    width: 298px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+/*-------------------------------------------------*/
+.login{
+    border: 1px solid yellow;
+    width: 298px;
+    height: 325px;
+}
+
+.cadastro{
+    display: flex;
+    height: 15px;
+    width: 298px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
