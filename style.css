@@ -75,6 +75,13 @@ button{
     border-radius: 10px;
     border: none;
 }
+.maior:hover{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.3 ease;
+}
 /*-------------------------------------------------*/
 /*controlador do footer de cadastro novo*/
 .cadastro{
@@ -84,7 +91,7 @@ button{
     width: 298px;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
+    font-size: 7px;
 }
 a{
     text-decoration: none;
